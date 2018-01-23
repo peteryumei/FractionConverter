@@ -8,7 +8,7 @@ namespace FractionConverter
 {
     public static class Converter
     {
-        public static string Convert(decimal pvalue, bool skip_rounding = false)
+        public static string Convert(decimal pvalue, bool skip_rounding = true)
         {
             decimal value = pvalue;
             decimal dplaces = (decimal)0.03125;
